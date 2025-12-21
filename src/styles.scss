@@ -1,0 +1,45 @@
+/* =====================================================
+ * MASTERING ANGULAR ZONELESS - GLOBAL STYLES
+ * =====================================================
+ * 
+ * Diese Styles gelten für die gesamte Anwendung.
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f0c29;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(155, 89, 182, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(155, 89, 182, 0.7);
+}
+
+/* Selection */
+::selection {
+  background: rgba(155, 89, 182, 0.3);
+}
